@@ -61,8 +61,57 @@ a:hover {
 .secondSection {
     max-width: 80vw;
     margin: auto;
+    height: 80vh;
 }
-main hr {
-    background: rgb(0, 0, 0);
-    margin: 40px 40 px;
+.seperator {
+    border: 0;
+    height: 1.2px; /* Add height to make it more visible */
+    background-color: #9c97f1; /* Set the background color */
+    margin: 40px 84px; /* Correct the margin */
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.grey {
+    color: grey;
+}
+
+#worktimeline {
+    background-color: white;
+    height: 1.5px;
+    width: 140vh;
+    margin: 60px;
+}
+
+.vertical {
+    height: 100px;
+    width: 1px;
+    display: inline-block;
+    /* justify-content: ; */
+    margin: 0px 150px;
+    background-color: white;
+}
+
+.work-image {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: -55px;
+    left: -30px;
+}
+
+.work-title {
+    position: relative;
+    top: 20px;
+    width: 150px;
+}
+
+.work-desc {
+    position: relative;
+    top: 20px;
+    color: grey;
+    font-size: 10px;
+    display: flex;
 }
